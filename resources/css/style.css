@@ -1,0 +1,72 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.cell {
+    border: 1px solid rgb(214, 214, 214);
+    height: 3rem;
+    width: 3rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.game-container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.piece {
+    height:2rem;
+    width:2rem;
+    border-radius: 50%;
+}
+
+.piece.hover {
+    opacity: 0.5;
+}
+
+.piece.red {
+    background-color: red;
+}
+
+.piece.blue {
+    background-color: blue;
+}
+
+.piece.hidden {
+    visibility: hidden;
+}
+
+.active-player {
+    margin-top: 1rem;
+}
+
+.active-player .player.red {
+    color: red;
+    font-weight: bold;
+}
+
+.active-player .player.blue {
+    color: blue;
+    font-weight: bold;
+}
+
+.game-board .firstRow:hover {
+    cursor: pointer;
+}
